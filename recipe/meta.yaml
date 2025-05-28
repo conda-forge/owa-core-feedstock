@@ -1,5 +1,5 @@
 {% set name = "owa-core" %}
-{% set version = "0.3.8" %}
+{% set version = "0.3.9" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/owa_core-{{ version }}.tar.gz
-  sha256: 7e8a464383a36cea90ce591fffa76a4939e5d99d51542d7f3b74996914173f85
+  sha256: dd98af0c367e319e6ec3ba52ed7e9985131e9616cab4b2118f504f93a3c8896a
 
 build:
   noarch: python
@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/open-world-agents/open-world-agents
-  summary: Add your description here
+  summary: "Everything you need to build state-of-the-art foundation multimodal desktop agent, end-to-end."
   license: MIT
   license_file: LICENSE
 
