@@ -7,7 +7,7 @@ Home: https://github.com/open-world-agents/open-world-agents
 
 Package license: MIT
 
-Summary: Add your description here
+Summary: Everything you need to build state-of-the-art foundation multimodal desktop agent, end-to-end.
 
 Current build status
 ====================
