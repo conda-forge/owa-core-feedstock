@@ -1,5 +1,5 @@
 {% set name = "owa-core" %}
-{% set version = "0.3.9.post1" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/owa_core-{{ version }}.tar.gz
-  sha256: 46df1f2901443abe7c49cd406adf99c9459d4756bbf43f61d3bf64e176311f1d
+  sha256: 215893203216c14526f99f018c5dc1ff48ae477188b904db16f2dbdc6ea39c23
 
 build:
   noarch: python
@@ -22,9 +22,12 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - opencv >=4.11.0
+    - av >=14.4.0
     - loguru >=0.7.3
     - pydantic >=2.10.6
+    - griffe >=1.7.3
+    - owa-msgs
+    - pyyaml >=6.0.2
 
 test:
   imports:
