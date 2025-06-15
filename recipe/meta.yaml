@@ -22,9 +22,11 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - opencv >=4.11.0
+    - av >=14.4.0
     - loguru >=0.7.3
     - pydantic >=2.10.6
+    - griffe >=1.7.3
+    - owa-msgs
     - pyyaml >=6.0.2
 
 test:
